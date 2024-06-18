@@ -13,7 +13,7 @@ from google.oauth2 import service_account
 from openpyxl import load_workbook
 
 SCOPES = ['https://www.googleapis.com/auth/drive']
-
+SERVICE_ACCOUNT_FILE = '/home/ggtxz/Documentos/source code/path/computacao-em-nuvem-424816-d2d9dda070b3.json'
 PARENT_FOLDER_ID = "1MC3oiCzwLfwRApFIzV2AkN7jkQs0ludI"
 DOWNLOAD_PATH_IMAGES = '/home/ggtxz/Documentos/source code/downloaded_images'
 PATH_CSV = '/home/ggtxz/Documentos/source code/csv_files/chamada.csv'
