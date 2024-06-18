@@ -166,8 +166,10 @@ lista_de_presenca = []
 for aluno in dataframe_matriculas['matriculas']:
     if aluno.strip().lower() in recognized_faces:
         lista_de_presenca.append('P')
+        print(f'Aluno {aluno} presente')
     else:
         lista_de_presenca.append('F')
+        print(f'Aluno {aluno} ausente')
 
 data_atual = datetime.today().strftime("%m/%d/%Y")
 
