@@ -1,0 +1,12 @@
+opencv-python
+glob2
+numpy
+requests
+pandas
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+openpyxl
+git+https://github.com/ageitgey/face_recognition_models.git
+git+https://github.com/ageitgey/face_recognition.git
